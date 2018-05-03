@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadWebApp(Intent intent) {
         mWebView.stopLoading();
-        mWebView.addJavascriptInterface(new ZerodropClient(this, intent), "ZerodropClient");
+        mWebView.addJavascriptInterface(new ShareIntentInterface(this, intent), "ShareIntent");
         mWebView.loadUrl(getString(R.string.zerodrop_url));
     }
 
