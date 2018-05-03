@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zerodrop</string>
+    <string name="clipboard_data_label">Zerodrop Link</string>
+    <string name="zerodrop_url">https://go.eligrey.com/t/admin/</string>
+</resources>
